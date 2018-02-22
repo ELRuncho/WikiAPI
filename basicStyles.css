@@ -1,0 +1,59 @@
+
+html, body {
+	box-sizing: border-box;
+	background-color: #3ba99c;
+	height: 100%;
+	margin:0px;
+}
+
+input[type=text] {
+	width: 20px;
+	box-sizing: border-box;
+	border: 2px solid #7ebce6;
+	border-radius: 40px;
+	font-size: 16px;
+	background-color: #3ba99c;
+	background-position: 10px 10px;
+	background-repeat: no-repeat;
+	padding: 10px 20px 12px 40px;
+	-webkit-transition: width 0.4s ease-in-out;
+	transition: width 0.4s ease-in-out;
+}
+input[type=text]:focus{
+	width: 70%;
+}
+.container > div:nth-child(1n) {
+	background-color: #3ba99c;
+}
+.searchbox {
+	text-align: center;
+	font-size: 1.3em;
+}
+.text1 {
+	margin-top: 12px;
+	margin-bottom: 8px;
+	color: #1d0029;
+	font-family: "Helvetica", sans-serif;
+}
+.text2 {
+	margin-top: 12px;
+	margin-bottom: 8px;
+	color: #1d0029;
+	font-family: "Helvetica", sans-serif;
+}
+.actions-init{
+	position: fixed;
+  	top: 50%;
+  	left: 50%;
+  	/* bring your own prefixes */
+  	transform: translate(-50%, -50%);
+}
+.actions-transform{
+	position: relative;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+h2 {
+	color: #1d0029;
+}
